@@ -1,0 +1,21 @@
+00:48:39.627762 git.c:460               trace: built-in: git push -u origin master
+00:48:39.629852 run-command.c:655       trace: run_command: GIT_DIR=.git git remote-https origin https://github.com/Rakshitha211/Playwright2026_Rakshitha.git
+00:48:39.636651 git.c:750               trace: exec: git-remote-https origin https://github.com/Rakshitha211/Playwright2026_Rakshitha.git
+00:48:39.637300 run-command.c:655       trace: run_command: git-remote-https origin https://github.com/Rakshitha211/Playwright2026_Rakshitha.git
+00:48:39.978818 run-command.c:655       trace: run_command: 'git credential-osxkeychain get'
+00:48:39.999480 git.c:750               trace: exec: git-credential-osxkeychain get
+00:48:40.000230 run-command.c:655       trace: run_command: git-credential-osxkeychain get
+error: git-credential-osxkeychain died of signal 15
+00:49:45.699216 run-command.c:655       trace: run_command: '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh' 'Username for '\''https://github.com'\'': '
+00:49:53.198004 run-command.c:655       trace: run_command: '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh' 'Password for '\''https://17248496@github.com'\'': '
+00:49:53.796006 run-command.c:655       trace: run_command: 'git credential-osxkeychain store'
+00:49:53.806777 git.c:750               trace: exec: git-credential-osxkeychain store
+00:49:53.807170 run-command.c:655       trace: run_command: git-credential-osxkeychain store
+00:49:53.847614 run-command.c:655       trace: run_command: git send-pack --stateless-rpc --helper-status --thin --no-progress https://github.com/Rakshitha211/Playwright2026_Rakshitha.git/ --stdin
+00:49:53.854755 git.c:460               trace: built-in: git send-pack --stateless-rpc --helper-status --thin --no-progress https://github.com/Rakshitha211/Playwright2026_Rakshitha.git/ --stdin
+00:49:53.856640 run-command.c:655       trace: run_command: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset -q
+00:49:53.862341 git.c:460               trace: built-in: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset -q
+error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
